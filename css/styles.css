@@ -3,5 +3,53 @@ body{
     color: #888;
     font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+    line-height: 1.6em;
+    margin: 0px;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #8f2a2a;
+    color: #fff;
+}
+
+#navbar{
+    background-color:#cc5454;
+    color: #fff;
+}
+#navbar ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#showcase{
+    background-image: url("../images/sebastianervi.jpg");
+    background-position: center right;
+    min-height:300px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#showcase h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+}
