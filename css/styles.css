@@ -14,7 +14,7 @@ body{
 }
 
 #main-header{
-    background-color: #8f2a2a;
+    background-color: #1f1f1f;
     color: #fff;
 }
 
@@ -44,12 +44,47 @@ body{
     background-position: center right;
     min-height:300px;
     margin-bottom: 30px;
-    text-align: center;
 
 }
 
 #showcase h1{
     color: #fff;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 100px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: left;
+    width: 30%;
+    color: white;
+    background: #cc5454;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    text-align: center;
+    color: rgb(252, 124, 124);
+    background-color: #161616;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/*media query, when browser is < 600px, it removes the float*/
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
 }
